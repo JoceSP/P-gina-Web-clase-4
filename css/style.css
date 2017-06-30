@@ -1,21 +1,64 @@
-.container,.container-fluid{
+/*.container,.container-fluid{
 	border:1px solid red;
 }
 .row{
 	border:1px solid blue;
+}*/
+
+.top-right{
+	text-align:right;
+}
+.top-center{
+	text-align:center; 	
+}
+.top-nav{
+	margin-top: 36px;
+
+}
+.top-nav>a{
+	font-size:18px;
+	margin-left:30px;
+	color:#333;
+}
+
+.top-nav>span{
+	font-size:18px;
+	margin-left:30px;
+	padding-right:15px; 
+}
+
+.top-nav>a:hover,.top-nav>a:focus.top-nav>.active{
+	text-decoration:none;
+	color:#a29c9c!important;
+	border-bottom: 2px solid #d8131a;
+	padding-bottom:5px;
+}
+/*top nav es un selector y hover es un pseudo selector solo actua en el
+caso de pasar el mouse*/
+.col-top-nav{
+	text-align:right; 
+}
+.text{
+
 }
 
 .opciones{
-	display: inline-block;
+	/*display: inline-block;*/
 	padding:10px;
 	font-size:12px; 
-	font-size:12px;
-	/*border-left:2px solid #eaeaea;*/ 
+	/*border-left:2px solid #eaeaea;*/
 	color:gray;
 
+
 }
+.opciones i{
+	position:relative;
+	top: -1px;
+	right: -2px;
+}
+
 .opciones-icon{
-	color:#00e8ec;
+	color:#d8131a;
 	font-size:12px;
 	padding:10px;
 }
@@ -32,8 +75,8 @@
     text-align: center2px; 
 }
 .logo{
-	width: 150px;
-	margin: 15px 0;/*primera riiba abajo  segunda derecha izq*/
+	width:300px;
+	margin: 6px 0;/*primera riiba abajo  segunda derecha izq*/
 }
 
 .carousel-inner img{
@@ -43,4 +86,31 @@
 
 .col-carousel{
 	padding:0;
+}
+.paso{
+	background-color:#d8131a; 
+}
+/*.rectangulo {
+     width: 250px; 
+     height: 100px; 
+     border: 3px solid #555;
+     background:#d8131a;
+     text-decoration-color:white; 
+}*/
+.text>h6{
+	/*display: inline-block;*/
+	padding:10px;
+	font-size:12px; 
+	/*border-left:2px solid #eaeaea;*/
+	color:gray;
+	text-align:center; 
+}
+
+.text>h3{
+	/*display: inline-block;*/
+	padding:10px;
+	font-size:20px; 
+	/*border-left:2px solid #eaeaea;*/
+	color:black;
+	text-align:center; 
 }
