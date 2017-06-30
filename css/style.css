@@ -4,3 +4,43 @@
 .row{
 	border:1px solid blue;
 }
+
+.opciones{
+	display: inline-block;
+	padding:10px;
+	font-size:12px; 
+	font-size:12px;
+	/*border-left:2px solid #eaeaea;*/ 
+	color:gray;
+
+}
+.opciones-icon{
+	color:#00e8ec;
+	font-size:12px;
+	padding:10px;
+}
+
+.redes-icon{
+	color: #292b2b;
+    font-size: 16px;
+    border: 1px solid #e2e1e1;
+    border-radius: 51px;
+    padding: 24px;
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    text-align: center2px; 
+}
+.logo{
+	width: 150px;
+	margin: 15px 0;/*primera riiba abajo  segunda derecha izq*/
+}
+
+.carousel-inner img{
+	height:400px!important;  
+	width:100%!important;
+}
+
+.col-carousel{
+	padding:0;
+}
