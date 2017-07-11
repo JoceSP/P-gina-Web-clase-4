@@ -1,9 +1,9 @@
-/*.container,.container-fluid{
+.container,.container-fluid{
 	border:1px solid red;
 }
 .row{
 	border:1px solid blue;
-}*/
+}
 
 .top-right{
 	text-align:right;
@@ -77,10 +77,12 @@ caso de pasar el mouse*/
 .logo{
 	width:300px;
 	margin: 6px 0;/*primera riiba abajo  segunda derecha izq*/
+	border-radius:6px;
+
 }
 
 .carousel-inner img{
-	height:400px!important;  
+	height:300px!important;  
 	width:100%!important;
 }
 
