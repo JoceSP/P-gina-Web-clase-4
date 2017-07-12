@@ -92,14 +92,14 @@ caso de pasar el mouse*/
 .paso{
 	background-color:#d8131a; 
 }
-.rectangulo {
+.rectangulo{
 	padding:15px;
+	margin-left: 120px;
 	margin-top:50px; 
 	text-align: center;
     width: 250px; 
     height: 100px; 
-    
-    background:#d8131a;
+    background:#c7c2c2;
     text-decoration-color:#292b2b;
     border-radius:8px;
 }
