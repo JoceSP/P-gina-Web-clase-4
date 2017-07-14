@@ -89,6 +89,12 @@ caso de pasar el mouse*/
 .col-carousel{
 	padding:0;
 }
+
+.btn {
+	padding:16px 30px;
+	margin-left: -61px;
+	background:gray;
+}
 .paso{
 	background-color:#d8131a; 
 }
@@ -140,4 +146,21 @@ footer{
 	text-align: center;
 	padding-top: 60px;
 	color:gray;
+}
+
+.iconorec i{
+	margin-left: 90px;
+    color: #292b2b;
+    font-size: 22px;
+    border: 1px solid #cec6c6;
+    background-color: white;
+    border-radius: 32px;
+    padding: 24px;
+    width: 58px;
+    height: 55px;
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    display: inline-block;
+    text-align: center 2px;
 }
