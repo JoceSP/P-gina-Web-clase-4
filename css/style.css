@@ -44,13 +44,14 @@ caso de pasar el mouse*/
 
 .opciones{
 	/*display: inline-block;*/
-	padding:10px;
+	padding:5px;
 	font-size:12px; 
 	/*border-left:2px solid #eaeaea;*/
 	color:gray;
 
 
 }
+
 .opciones i{
 	position:relative;
 	top:-1px;
