@@ -53,8 +53,8 @@ caso de pasar el mouse*/
 }
 .opciones i{
 	position:relative;
-	top: -1px;
-	right: -2px;
+	top:-1px;
+	right:-2px;
 }
 
 .opciones-icon{
@@ -63,17 +63,30 @@ caso de pasar el mouse*/
 	padding:10px;
 }
 
-.redes-icon{
+.redes-icon {
 	color: #292b2b;
     font-size: 16px;
     border: 1px solid #e2e1e1;
     border-radius: 51px;
-    padding: 24px;
+    padding: 19px;
     width: 2px;
     height: 2px;
     display: inline-block;
-    text-align: center2px; 
+    text-align: center;
+    position:relative;
+	top:2px;
+	right:23px;
+ 
 }
+.redes-icon i {
+	position:relative;
+	left:-6px;
+	top:-9px;
+	right:-2px;
+}
+
+
+
 .logo{
 	width:300px;
 	margin: 6px 0;/*primera riiba abajo  segunda derecha izq*/
@@ -92,9 +105,12 @@ caso de pasar el mouse*/
 
 .btn {
 	padding:16px 30px;
-	margin-left: -61px;
-	background:gray;
+	margin-left: 13px;
+	background:rgba(138, 130, 130, 0.35);
+	border-color: rgba(156, 157, 158, 0.27);
 }
+
+
 .paso{
 	background-color:#d8131a; 
 }
@@ -148,7 +164,7 @@ footer{
 	color:gray;
 }
 
-.iconorec i{
+.iconorec{
 	margin-left: 90px;
     color: #292b2b;
     font-size: 22px;
@@ -163,4 +179,12 @@ footer{
     right: -25px;
     display: inline-block;
     text-align: center 2px;
+}
+
+.iconorec i{
+	position:relative;
+	left:-2px;
+	top:-12px;
+	
+
 }
